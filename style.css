@@ -1,0 +1,81 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.text-stroke-black {
+  text-shadow:
+          -1px -1px 0 #000,
+          1px  -1px 0 #000,
+          -1px  1px 0 #000,
+          1px   1px 0 #000;
+}
+
+.text-stroke-white {
+  text-shadow:
+          -1px -1px 0 #fff,
+          1px  -1px 0 #fff,
+          -1px  1px 0 #fff,
+          1px   1px 0 #fff;
+}
+
+nav a #hamburger {
+  color: #b71c1c; /*text-red darken-4*/
+}
+
+nav ul li a {
+  color: #b71c1c; /*text-red darken-4*/
+}
+
+h1, h2, h3, h4, h5 , a{
+  color: #b71c1c; /*text-red darken-4*/
+}
+
+.news-title {
+  min-height: 80px;
+}
+
+.news-section {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.parallax-container {
+  min-height: 65vh;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
